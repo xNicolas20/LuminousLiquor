@@ -1,0 +1,97 @@
+
+
+.shopping-ca{
+width: 100%;
+justify-content: space-evenly;
+}
+
+.bg-cover h2{
+text-align: center;
+justify-self: center;
+
+}
+
+.favlink .cartlink{
+  display: none;
+}
+
+
+.reqf{
+  margin: auto;
+  color: rgba(1, 80, 14, 0.8);
+  width: 25%;
+  text-align: center;
+  
+ 
+  justify-content: center;
+  left: 50%;
+  /* transform: translate(-50%, 0); */
+background-color: white;
+  border: 1px solid rgba(1, 80, 14, 0.8);
+  border-radius: 30px;
+  padding: 6px
+}
+
+
+
+.reqf a{
+  color: rgba(1, 80, 14, 0.8);
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1900px) {
+  .bg-cover h2{
+    color: #ffffff;
+    margin-left: 00%;
+  }
+}
+
+
+
+
+/* Make adjustments for tablet */
+@media screen and (max-width: 650px) {
+.shopping-ca{
+  margin: 0;
+  padding-top: 20px;
+
+  padding: 10px;
+}
+
+
+.favlink .cartlink{
+  display: inline-block;
+}
+
+
+.reqf{
+  font-size: 18px;
+  width: 60%;
+}
+}
+/* Make more adjustments for phone */
+@media screen and (max-width: 350px) {
+
+  .favlink .cartlink{
+    display: inline-block;
+  }
+
+  .shopping-ca {
+    margin: 0;
+    padding-top: 20px;
+  width: 100%;
+    padding: 10px;
+  
+  }
+  
+  .reqf{
+    font-size: 17px;
+    width: 70%;
+   
+    left: 40%;
+  }
+}
+
+
+

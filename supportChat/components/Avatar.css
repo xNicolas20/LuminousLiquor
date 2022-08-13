@@ -1,0 +1,12 @@
+.transition-3{
+    cursor: pointer;
+    box-Shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.33);
+    border-Radius: 50%;
+    width: 84px;
+    height: 84px;
+    background-image: url("../../../public/support.jpg");
+    background-repeat: no-repeat;
+    background-size: 84px;
+    background-position: center;
+    
+}

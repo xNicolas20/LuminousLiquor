@@ -1,0 +1,20 @@
+.login-page{
+    background-image: url("/public/login.PNG");
+    background-repeat: no-repeat;
+    background-size:700px 550px;
+    background-position: right top;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .login-page{
+        background-image: url("/public/DesignPict.PNG");
+        background-repeat: no-repeat;
+        padding-bottom: 300px;
+        /* background-size:1550px 350px; */
+        background-size: contain;
+        
+        
+    }
+}

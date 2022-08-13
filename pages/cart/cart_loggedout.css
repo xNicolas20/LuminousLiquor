@@ -1,0 +1,79 @@
+
+
+.shopping-ca{
+width: 100%;
+justify-content: space-evenly;
+}
+
+
+/* .bg-cover{
+  height: 100px;
+} */
+
+.req{
+  margin: auto;
+  color: rgb(49, 49, 49);
+  width: 25%;
+  text-align: center;
+  
+ 
+  justify-content: center;
+  left: 50%;
+  /* transform: translate(-50%, 0); */
+background-color: white;
+  border: 1px solid rgba(66, 71, 75, 0.8);
+  border-radius: 30px;
+  padding: 6px
+}
+
+.req:hover{
+
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.req a{
+  color: rgb(49, 49, 49);
+  text-decoration: none;
+}
+
+
+
+/* Make adjustments for tablet */
+@media screen and (max-width: 650px) {
+.shopping-ca{
+  margin: 0;
+  padding-top: 20px;
+
+  padding: 10px;
+
+}
+
+.req{
+  font-size: 18px;
+  width: 60%;
+}
+}
+/* Make more adjustments for phone */
+@media screen and (max-width: 350px) {
+
+
+
+  .shopping-ca {
+    margin: 0;
+    padding-top: 20px;
+  width: 100%;
+    padding: 10px;
+  
+  }
+  
+  .req{
+    font-size: 17px;
+    width: 70%;
+   
+    left: 40%;
+  }
+}
+
+
+

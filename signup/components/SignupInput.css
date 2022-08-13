@@ -1,0 +1,53 @@
+.signup-input{
+    height: 600px;
+    width: 600px;
+    margin-left: 130px;
+}
+ 
+.signup-input h1{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.signup-input h3{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(128, 127, 127);
+    margin-top: 10px;
+}
+
+.signup-input input[type="text"],  input[type="email"], input[type="password"], input[type="number"]{
+    height: 40px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px 0px grey;
+    border: 1px solid rgb(133, 133, 133);
+padding: 30px;
+}
+
+.signup-input input[type="button"]{
+    height: 40px;
+    width: 280px;
+    margin-top: 30px;
+    border-radius: 7px;
+    margin-left: 30px;
+    background-color: rgba(255, 182, 23, 0.938);
+    border: 0;
+
+}
+
+.signup-input p{
+    font-size: 13px;
+    margin-left: 56px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.signup-input a{
+    color: rgba(255, 182, 23, 0.938);
+    text-decoration: none;
+}

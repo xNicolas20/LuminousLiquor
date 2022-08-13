@@ -1,0 +1,302 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .cont{
+    display: flex;
+    padding: 30px;
+  }
+
+.header_checkout{
+    /* padding-top: 80%; */
+    background-color: rgb(203, 216, 211);
+    width: 100%;
+    height: 20%;
+}
+
+
+
+
+.header_checkout h3{
+   
+    padding: 6%;
+    font-size: 35px;
+    padding-left: 12%;
+
+}
+
+.left_pay{
+    width: 100%;
+    position: relative;
+    margin-top: 0%;
+ 
+  }
+
+.right_pay{
+    width: 30%;
+    /* margin-top: 60px; */
+  }
+
+  .heading_left{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+
+
+h1 {
+    font-weight: 100;
+  }
+  
+  label {
+    /* color: $color-label; */
+  }
+  
+  
+  
+
+    
+    /* .column-labels .product-image, .product-details, .product-removal {
+      text-indent: -4800px;
+    } */
+/* 
+   .product-image, .product-details, .product-removal {
+        text-indent: -9999px;
+      } */
+    
+  
+  
+  
+  /* Product entries */
+  .product_checkout {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+  
+  }
+
+  .outer_left{
+    /* border:1px solid rgb(194, 194, 194); */
+    height: 100%;
+    padding: 20px;
+    /* border: 1px solid #E1E8EE; */
+  }
+    
+
+  
+  
+
+
+
+  /* Totals section */
+
+
+.total{
+    padding: 20px;
+    padding: 20px;
+    border: 1px solid #E1E8EE;
+}
+
+.right_pay{
+    padding: 20px;
+    padding: 20px;
+    border-left: 1px solid #E1E8EE;
+}
+
+  .totals 
+    .totals-item {
+      float: right;
+      clear: both;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+      
+    .totals 
+      label {
+        float: left;
+        clear: both;
+        width: 79%;
+        text-align: left;
+      }
+      
+      .totals-value {
+        float: right;
+        width: 21%;
+        text-align: left;
+      
+    }
+    
+    .totals-item-total {
+   
+    
+  }
+  
+  .checkout {
+    float: right;
+    border: 0;
+    margin-top: 20px;
+    padding: 6px 25px;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+  }
+  
+  .checkout:hover {
+    background-color: #494;
+  }
+  
+
+  .column-labels label{
+      color: rgb(124, 123, 123);
+  }
+
+  .product-description{
+    font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+
+
+
+
+  /* Make adjustments for tablet */
+  @media screen and (max-width: 650px) {
+
+    .left_pay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  padding: auto;
+  margin: auto;
+  justify-content: center;
+  padding-left: 30px;
+  display: table-row;
+    }
+  
+  .right_pay{
+    position: absolute;
+    position: absolute;
+  left: 30%;
+  /* height: 100%; */
+  width: 100%;
+  padding: auto;
+  margin: auto;
+  justify-content: center;
+  padding-left: 30px;
+  display: table-row;
+  border: none;
+
+    }
+
+    .right_pay .rp{
+   
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    /* justify-content: center; */
+    padding-left: 30px;
+    /* display: table-row; */
+  
+      }
+
+
+    .rp{
+      width: 100%;
+
+    }
+
+    .cont{
+      display: table;
+      width: 100%;
+      position: absolute;
+      left:0px;
+      right:0px;
+      align-items: stretch;
+     
+          
+    }
+    
+    .shopping-cart {
+      margin: 0;
+      padding-top: 20px;
+      
+    }
+
+  
+    
+  
+    /* .product_checkout .product-line-price:before {
+      content: 'Item Total: $';
+    } */
+    
+    .totals 
+      .totals-item 
+        label {
+          width: 100%;
+        }
+        
+        .totals 
+        .totals-item 
+        .totals-value {
+          width: 100%;
+        }
+      
+    
+  }
+
+
+  .bg-cover{
+    /* background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% ); */
+  
+    background-image: linear-gradient( 109.6deg,  rgb(29, 29, 29) 11.2%, rgb(89, 89, 89) 91.1% );
+
+  }
+
+  .fbut{
+    background-color: white;
+    width: 80%;
+  }
+
+  .checkbut{
+    background-color: #358ED7;
+    border-radius: 1%;
+    width: 80%;
+    color: white;
+    margin-bottom: 3%;
+  }
+  
+  .bg-tover{
+    background-image: linear-gradient( 109.6deg,  rgb(139, 39, 39) 11.2%, rgb(228, 111, 111) 91.1% );
+
+  
+  }
+
+  .red{
+    color:red;
+  }
+  .info .outer_left .left_pay{
+    padding: 122px;
+  }
+
+  .info p{
+    margin-bottom: 2px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+
+  div[disabled]
+{
+  pointer-events: none;
+  opacity: 0.7;
+} 

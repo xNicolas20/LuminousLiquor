@@ -1,0 +1,386 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.header_checkout{
+    /* padding-top: 80%; */
+    background-color: rgb(203, 216, 211);
+    width: 100%;
+    height: 20%;
+}
+
+
+
+.header_checkout h3{
+   
+    padding: 6%;
+    font-size: 35px;
+    padding-left: 12%;
+
+}
+
+/* .left_pay{
+    width: 100%;
+    position: relative;
+    margin-top: 0%;
+  } */
+
+  .let_pay{
+    width: 100%;
+    padding: 20px;
+  }
+
+.rt_pay{
+    width: 30%;
+    padding: 20px;
+
+    /* margin-top: 60px; */
+  }
+
+  .rt_pay button{
+    justify-self: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .heading_left{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+
+
+h1 {
+    font-weight: 100;
+  }
+  
+  label {
+    /* color: $color-label; */
+  }
+  
+  
+  
+
+    
+    /* .column-labels .product-image, .product-details, .product-removal {
+      text-indent: -4800px;
+    } */
+/* 
+   .product-image, .product-details, .product-removal {
+        text-indent: -9999px;
+      } */
+    
+  
+  
+  
+  /* Product entries */
+  .product_checkout {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+  
+  }
+
+  .outer_left{
+    /* border:1px solid rgb(194, 194, 194); */
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #E1E8EE;
+  }
+    
+
+  
+  
+
+
+
+  /* Totals section */
+
+
+.total{
+    padding: 20px;
+    padding: 20px;
+    border: 1px solid #E1E8EE;
+}
+
+.right_pay{
+    padding: 20px;
+    padding: 20px;
+    border-left: 1px solid #E1E8EE;
+}
+
+  .totals 
+    .totals-item {
+      float: right;
+      clear: both;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+      
+    .totals 
+      label {
+        float: left;
+        clear: both;
+        width: 79%;
+        text-align: left;
+      }
+      
+      .totals-value {
+        float: right;
+        width: 21%;
+        text-align: left;
+      
+    }
+    
+    .totals-item-total {
+   
+    
+  }
+  
+  .checkout {
+    float: right;
+    border: 0;
+    margin-top: 20px;
+    padding: 6px 25px;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+  }
+  
+  .checkout:hover {
+    background-color: #494;
+  }
+  
+
+  .column-labels label{
+      color: rgb(124, 123, 123);
+  }
+
+  .product-description{
+    font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+.info input{
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.checkbuti{
+  background-color: #2a8550;
+  border-radius: 1%;
+  width: 80%;
+  color: white;
+  margin-bottom: 3%;
+  box-shadow: 0 5px 15px rgba(41, 133, 61, 0.9);
+}
+
+.asd{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  left: 50%;
+}
+
+.hh-grayBox {
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	padding: 35px;
+  margin-top: 20px;
+}
+.pt45{padding-top:45px;}
+.order-tracking{
+	text-align: center;
+	width: 33.33%;
+	position: relative;
+	display: block;
+}
+.order-tracking .is-complete{
+	display: block;
+	position: relative;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	border: 0px solid #AFAFAF;
+	background-color: #dddddd;
+	margin: 0 auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+	z-index: 2;
+}
+.order-tracking .is-complete:after {
+	display: block;
+	position: absolute;
+	content: '';
+	height: 14px;
+	width: 7px;
+	top: -2px;
+	bottom: 0;
+	left: 5px;
+	margin: auto 0;
+	border: 0px solid #AFAFAF;
+	border-width: 0px 2px 2px 0;
+	transform: rotate(45deg);
+	opacity: 0;
+}
+.order-tracking.completed .is-complete{
+	border-color: #27aa80;
+	border-width: 0px;
+	background-color: #27aa80;
+}
+.order-tracking.completed .is-complete:after {
+	border-color: #fff;
+	border-width: 0px 3px 3px 0;
+	width: 7px;
+	left: 11px;
+	opacity: 1;
+}
+.order-tracking p {
+	color: #A4A4A4;
+	font-size: 16px;
+	margin-top: 8px;
+	margin-bottom: 0;
+	line-height: 20px;
+}
+.order-tracking p span{font-size: 14px;}
+.order-tracking.completed p{color: #000;}
+.order-tracking::before {
+	content: '';
+	display: block;
+	height: 3px;
+	width: calc(100% - 40px);
+	background-color: #dddddd;
+	top: 13px;
+	position: absolute;
+	left: calc(-50% + 20px);
+	z-index: 0;
+}
+.order-tracking:first-child:before{display: none;}
+.order-tracking.completed:before{background-color: #27aa80;}
+
+
+
+  /* Make adjustments for tablet */
+  @media screen and (max-width: 650px) {
+
+    .asd p{
+font-size: 13px;
+    }
+
+    #chota{
+      font-size: 10px;
+    }
+    
+    
+    .shopping-cart {
+      margin: 0;
+      padding-top: 20px;
+      
+    }
+
+    .rt_pay{
+      width: 100%;
+    }
+   
+  
+  .right_pay{
+    /* position: relative; */
+    width: 125%;
+      left: 0;
+      float: 0px;
+    
+      /* margin-top: 60px; */
+    }
+
+    
+    
+  
+    /* .product_checkout .product-line-price:before {
+      content: 'Item Total: $';
+    } */
+    
+    .totals 
+      .totals-item 
+        label {
+          width: 60%;
+        }
+        
+        .totals 
+        .totals-item 
+        .totals-value {
+          width: 40%;
+        }
+
+
+        .info input{
+          height: 40px;
+          width: 125%;
+          /* margin-top: 30px; */
+          border-radius: 7px;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0px 0px 0px 0px grey;
+          /* border: 1px solid rgb(133, 133, 133); */
+          margin-bottom: 20px;
+        }
+
+        .checkbuti{
+         
+          width: 100%;
+          color: white;
+          margin-bottom: 3%;
+          margin: auto;
+
+        }
+      
+    
+  }
+
+
+  .bg-cover{
+    /* background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% ); */
+  
+    background-image: linear-gradient( 109.6deg,  rgb(29, 29, 29) 11.2%, rgb(89, 89, 89) 91.1% );
+
+  }
+
+  .fbut{
+    background-color: white;
+    width: 100%;
+    margin: 0;
+  }
+
+ 
+  
+  .bg-tover{
+    background-image: linear-gradient( 109.6deg,  rgb(139, 39, 39) 11.2%, rgb(228, 111, 111) 91.1% );
+
+  
+  }
+
+  .red{
+    color:red;
+  }
+  .info .outer_left {
+    padding: 5px;
+  }
+
+  .info p{
+    margin-bottom: 2px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+
+  div[disabled]
+{
+  pointer-events: none;
+  opacity: 0.7;
+}
